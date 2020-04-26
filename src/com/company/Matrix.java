@@ -10,6 +10,7 @@ public class Matrix {
         for (int i = 0; i < x.length; i++) {
             x[i] = i + 1;
         }
+        x[x.length - 1] = 0;
     }
     void show(){
         for (int v : x) {
